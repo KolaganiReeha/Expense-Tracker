@@ -24,5 +24,6 @@ A responsive web application to track personal expenses with full CRUD functiona
    ```bash
    git clone https://github.com/kolaganiReeha/Expense-Tracker.git
 2. Navigate to the project directory
+   ```bash
    cd Expense-Tracker
 3. Open expense.html in your browser
