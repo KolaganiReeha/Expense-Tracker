@@ -1,0 +1,82 @@
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background-color: #ffffff;
+}
+
+#container{
+    background-color: #ffff;
+    box-shadow: 0 0 20px
+    rgba(0, 0, 0, 0.2);
+    width: 830px;
+}
+
+h1{
+    text-align: center;
+}
+
+input, select, button{
+    border: 1px solid #ccc;
+    height: 35px;
+    width: 150px;
+    font-size: 16px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    border-radius: 4px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+button{
+    background-color: green;
+    width: 110px;
+    cursor: pointer;
+}
+
+table{
+    border: 1px solid #ccc;
+    margin: 10px;
+    border-collapse: collapse;
+}
+
+th,td{
+    margin: 10px;
+    width:700px;
+    height: 35px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 17px;
+    border-right: 1px solid #ccc;   
+    text-align: center;
+    border: 1px  solid #ccc;
+}
+
+#total,#filter{
+    text-align: right;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    margin: 10px;
+}
+
+#total{
+    margin-right: 20px;
+}
+
+#filter{
+    font-size: 18px;
+    position: relative;
+    left: -140px;
+}
+
+#select2{
+    width: 120px;
+    position: relative;
+    top:-45px;
+    right: -130px;
+}
+
+.editBtn, .deleteBtn{
+width: 55px;
+height: 30px;
+margin-top: 10px;
+}
